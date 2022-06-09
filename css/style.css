@@ -1,0 +1,88 @@
+*{box-sizing:border-box}
+header{position: relative;
+    background-color: #222222;
+    display:flex;
+    justify-content: space-between;
+    
+    
+}
+.logo{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+#menu{
+    display:flex;
+    justify-content:flex-end;
+}
+.textbox{
+    font-size: 25px;
+    margin: 6px;
+    font-family: 'roboto' ,'sans serif';
+    color:antiquewhite;
+    text-decoration: none;
+}
+main{
+        display: flex;
+}
+#Promo{
+    background-image: url(/img/delivery.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    width: 50%;
+height: 700px;}
+#Podio{
+    
+    justify-content: center; 
+    align-items: center;  
+    display:flex;
+    width: 980px;
+height: 700px;
+}
+#pizza{
+width: 250px
+    ;height: 300px;}
+
+
+h2{ font-family: 'roboto',sans-serif;
+    font-size: 35px;
+    text-align: center;}
+footer{
+background-color: #222222;
+display:flex;
+justify-content: space-between;
+align-items:center
+    
+}
+
+
+
+.blanco{
+    display:flex;
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'roboto',sans-serif;
+    justify-content: space-between;
+    
+}
+#logotipo{
+    width: 450px;
+    margin: 40px;
+
+}
+.blanc{
+    color: antiquewhite;
+}
+.rojo{
+    color: red
+    ;
+}
+#lista{
+    font-family:fantasy;
+    font-size: 35px;
+}
+.titu{display: block;
+    text-align: center;
+  
+}
