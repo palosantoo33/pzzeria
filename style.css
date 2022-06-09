@@ -10,10 +10,12 @@ header{position: relative;
     display:flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
     }
 #menu{
     display:flex;
     justify-content:flex-end;
+    flex-wrap: wrap;
 }
 .textbox{
     font-size: 25px;
@@ -21,23 +23,30 @@ header{position: relative;
     font-family: 'roboto' ,'sans serif';
     color:antiquewhite;
     text-decoration: none;
+    flex-wrap: wrap;
+    align-self: ;
 }
 main{
         display: flex;
-}
+        align-items: flex-start;
+        justify-content: center;
+    ; }
 #Promo{
     background-image: url(./img/delivery.jpg);
     background-repeat: no-repeat ;
     background-size: cover;
     width: 50%;
-height: 700px;}
+height: 700px;
+flex-wrap: wrap;}
+
 #Podio{
     
     justify-content: center; 
-    align-items: center;  
+    align-items:center;  
     display:flex;
     width: 980px;
 height: 700px;
+position: relative;
 }
 #pizza{
 width: 250px
@@ -84,5 +93,9 @@ align-items:center
 }
 .titu{display: block;
     text-align: center;
+    align-self: flex-start;
+    justify-self: center;
+    position: absolute;
+    align-items: center;
   
 }
